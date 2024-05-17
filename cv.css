@@ -1,0 +1,462 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    transition: all ease-in-out 550ms;
+}
+
+html, body{
+    scroll-behavior: smooth;
+    transition: all ease-in-out 400ms;
+}
+
+body{
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: #ebebeb;
+    width: 100%;
+    height: 100%;
+    transition: all ease-in-out 550ms;
+}
+
+header{
+    display: grid;
+    gap: 50px;
+    height: max-content;
+    width: auto;
+    align-items: center;
+    color: white;
+    box-shadow: inset 0px 0px 100px rgb(15, 15, 15);
+    box-shadow: -3px 0px 10px black ;
+    background-color: rgb(10, 10, 10);
+    transition: all ease-in-out 550ms;
+}
+
+header *{
+    z-index: 999;
+}
+
+nav{
+    background-color: rgb(10, 10, 10);
+    width: 100%;
+    padding: 15px;
+    border-bottom: 2px solid whitesmoke;
+    top: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    user-select: none;
+    transform: none;
+    display: block;
+    position: sticky;
+    z-index: 9999999;
+    transition: none;
+    box-shadow: -3px 0px 10px grey ;
+}
+
+a{
+    color: white;
+    transition: all ease-in-out 550ms;
+}
+
+ul{
+    display: flex;
+    gap: 12%;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    transition: all ease 550ms;
+}
+
+.contacts{
+    display: none;
+    transition: all ease-in-out 550ms;
+}
+
+#btn{
+    display: none;
+    transition: all ease-in-out 550ms;
+}
+
+.intro_section{
+    gap: 13px;
+    width: 100%;
+    height: 80%;
+    padding: 13px;
+    align-items: center;
+    user-select: none;
+    margin: auto;
+    transition: all ease-in-out 550ms;
+}
+
+.section{
+    display: flex;
+    float: left;
+    height: 300px;
+    font-size: 5rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    opacity: 1;
+    transition: all ease-in-out 550ms;
+}
+
+.gg{
+    color: rgb(100, 100, 100);
+}
+
+#x{
+    display: none;
+}
+
+.img{
+    display: grid;
+    float: right;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    user-select: text;
+    margin: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: all ease-in-out 550ms;
+}
+
+.img img{
+    border-radius: 500px;
+    box-shadow: 0px 0px 100px #fffefe2a;
+    transition: all ease-in-out 550ms;
+}
+.img img:hover{
+    scale: 103%;
+}
+
+.head_cont, .laterr {
+    display: flex;
+    padding: 13px;
+    width: 100%;
+    gap: 20px;
+    transition: all ease-in-out 550ms;
+}
+
+.naming{
+    margin-top: 13px;
+    transition: all ease-in-out 550ms;
+}
+
+.head_cont *, .laterr *{
+    margin-inline-end: 13px;
+    transition: all ease-in-out 550ms;
+}
+
+#up{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 16px;
+    rotate: 180deg;
+    opacity: 1;
+    background: rgba(60, 60, 60, 0.7);
+    box-shadow: 0px 0px 14px rgb(0, 0, 0);
+    border-radius: 8px;
+    font-weight: bolder;
+    margin: 19px;
+    color: white;
+    user-select: none;
+    z-index: 999999;
+    backdrop-filter: blur(4px);
+    transition: opacity ease-in-out  1s;
+}
+
+#up p{
+    rotate: 90deg;
+}
+
+main{
+    padding: 13px;
+    display: grid;
+    gap: 10px;
+    align-items: center;
+    transition: all ease-in-out 550ms;
+}
+
+.first, .sec{
+    display: flex;
+    gap: 10px;
+    transition: all ease-in-out 550ms;
+}
+
+#about, #skills, #projects, #contact{
+    word-wrap: break-word;
+    border: none;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 1px 5px rgb(228, 228, 228);
+    transition: all ease-in-out 550ms;
+}
+
+.one{
+    display: grid;
+    gap: 10px;
+    transition: all ease-in-out 550ms;
+}
+
+.laterr a{
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 10px;
+}
+
+.laterr a:hover{
+    background: #ebebeb;
+}
+
+.laterr{
+    display: grid;
+    align-items: center;
+}
+
+.social{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+h2{
+    text-align: center;
+    user-select: none;
+    color: black;
+    font-family:serif;
+}
+
+
+#about, #skills, #projects, #contact{
+    width: auto;
+    height: auto;
+}
+
+#skills{
+    justify-content: space-between;
+}
+.skills-section{
+    align-items: center;
+    display: flex;
+    height: max-content;
+    padding: 10px;
+    gap: 2%;
+    flex: 1;
+    overflow:auto;
+}
+
+.mySkills{
+    display: grid;
+    background: #ebebeb;
+    padding: 10px;
+    height: max-content;
+    border-radius: 10px;
+    place-content: center;
+    align-items: center;
+    text-align: center;
+    transition: all ease-in-out 400ms;
+    letter-spacing: 0.5px;
+    gap: 10px;
+}
+
+.mySkills:hover, .rollSkills .image-span img:hover{
+    user-select: none;
+    cursor: pointer;
+    scale: 102%;
+    box-shadow: 0px 0px 10px rgb(202, 202, 202);
+}
+
+.image-span{
+    display: flex;
+    place-content: center;
+}
+
+.image-span img{
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.rollSkills *{
+    display: flex;
+    place-content: center;
+    align-items: center;
+    padding: 8px;
+    border-radius: 50px;
+    gap: 1px;
+}
+
+.rollSkills *:hover{
+    background-color: #ebebeb;
+}
+
+.rollSkills{
+    display: flex;
+    align-items: center;
+    font-size: small;
+    justify-content: space-between;
+    overflow: auto;
+}
+
+.rollSkills .image-span img{
+    width: 50px;
+    height: 50px;
+    border-radius: 5000px;
+    border: 1px solid transparent;
+}
+
+.left{
+    display: grid;
+    gap: 10px;
+}
+
+footer{
+    display: grid;
+    background-color: rgb(10, 10, 10);
+    padding: 10px;
+    width: 100%;
+    min-height: 150px;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    transition: all ease-in-out 550ms;
+}
+
+footer ul{
+    width: auto;
+    height: auto;
+    gap: 30%;
+}
+
+footer ul *:hover{
+    text-decoration: underline;
+}
+
+
+@media (max-width:877px) {
+
+    header{
+        justify-content: center;
+    }
+
+    .intro_section{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #btn{
+        display: block;
+        position: fixed;
+        top: 0;
+        padding: 13px;
+        background: rgba(60, 60, 60, 0.7);        
+        box-shadow: 0px 0px 14px rgb(0, 0, 0);
+        border: none;
+        border-radius: 5px;
+        font-weight: bolder;
+        margin: 13px;
+        z-index: 999999;
+        user-select: none;
+        color: white;
+        backdrop-filter: blur(4px);
+    }
+
+    .section{
+        opacity: 0;
+        display: none;
+    }
+    
+    .img{
+        float: none;
+    }
+
+    nav ul *:hover{
+        text-decoration: underline;
+    }
+
+    nav{
+        display: grid;
+        width: 70%;
+        position: fixed;
+        padding-top: 90px;
+        box-shadow: none;
+        gap: 60px;
+        transform: translateX(-100%);
+        transition: transform 1.2s;
+        height: 100%;
+    }
+
+    #x{
+        display: flex;
+        padding: 10px;
+        width:40px ;
+        height: 40px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        border: 1.5px solid white;
+        border-radius: 5px;
+        background: rgba(60, 60, 60, 0.7);        
+        box-shadow: 0px 0px 14px rgb(0, 0, 0);
+        margin: 25px;
+        position: absolute;
+        right: 0;
+        user-select: none;
+        backdrop-filter: blur(4px);
+    }
+
+    ul{
+        display: grid;
+        gap: 2%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contacts{
+        display: flex;
+        bottom: 0;
+        width: 100%;
+        align-items: center;
+        gap: 20px;
+        padding: 19px;
+        justify-content: center;
+    }
+
+    .contacts *{
+        font-size: xx-large ;
+        margin-inline-end: 5px;
+    }
+
+    .first, .sec{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        height: fit-content;
+    }
+
+    #about, #skills, #projects, #contact{
+        display: grid;
+        width: auto;
+        height: fit-content;
+    }
+
+    footer{
+        padding: 20px;
+        gap: 90px;
+    }
+
+    footer ul{
+        gap: 20%;
+    }
+}
